@@ -32,11 +32,26 @@ Prepare Dataset -> Robot Config -> Norm Stats -> Post-training -> Open-loop -> R
 ## 07 训练优化
 AdamW、LoRA、FSDP2、MoE routing、Muon、Distributed Muon。
 
-## 08 真机
-ROS 2 / robot API / camera / calibration / action retargeting / latency / safety。
+## 08 高阶数据闭环与后训练
+顺序：
+DAgger -> Data Flywheel -> QoQ -> RoboDrop -> SFT -> RFT -> RoboMeter
 
-## 09 黑客松
-data -> train -> eval -> failure -> fix -> retrain -> demo
+重点掌握：
+- policy failure correction
+- data valuation / curation
+- rollout reward
+- process reward
+- preference learning
+- failure mining
+- dataset/model/eval traceability
+
+完整说明见：06-Advanced-Concepts.md
+
+## 09 Motion Planning 与真机
+ROS 2 / TF2 / URDF / ros2_control / MoveIt 2 / Nav2 / camera / calibration / action retargeting / latency / safety。
+
+## 10 黑客松
+data -> curate -> train -> eval -> failure -> correction -> retrain -> demo
 
 ## 31天
 1-3 Linux/CUDA/PyTorch
@@ -44,7 +59,8 @@ data -> train -> eval -> failure -> fix -> retrain -> demo
 7-9 ACT/LeRobot
 10-13 VLA
 14-18 LingBot
-19-22 post-training
-23-25 evaluation/ablation
-26-28 closed-loop
+19-21 DAgger/Data Flywheel
+22-24 QoQ/RoboDrop
+25-27 SFT/RFT/RoboMeter
+28 Motion Planning
 29-31 submission/demo/real robot
