@@ -18,9 +18,24 @@
 - OpenVLA: https://github.com/openvla/openvla
 - OpenVLA-OFT: https://github.com/RLinf/openvla-oft
 
-## 训练基础设施
+## DAgger / RL / RFT
 - RLinf: https://github.com/RLinf/RLinf
 - twinRL-LingBot-VLA: https://github.com/jiangyurong609/twinRL-lingbot-vla
+- VLA-RFT: https://github.com/OpenHelix-Team/VLA-RFT
+- verl-vla: https://github.com/verl-project/verl-vla
+
+## 数据筛选 / 数据引擎
+- QoQ: https://github.com/rl-max/quality_over_quantity
+- Awesome-Robot-Data-Engine: https://github.com/chang-xinhai/Awesome-Robot-Data-Engine
+
+## Reward / Evaluation
+- Robometer: https://github.com/robometer/robometer
+- Robometer project: https://robometer.github.io/
+
+## Motion Planning
+- MoveIt 2: https://github.com/moveit/moveit2
+- ROS 2: https://github.com/ros2/ros2
+- Nav2: https://github.com/ros-navigation/navigation2
 
 ## LingBot生态
 - LingBot-VLA: https://github.com/Robbyant/lingbot-vla
@@ -34,4 +49,4 @@
 - SmolVLA MRL2 Bimanual: https://github.com/RajatDandekar/SmolVLA_MRL2Bootcamp_Bimanual
 - RoboTwin RMBench: https://github.com/robotwin-Platform/rmbench
 
-推荐顺序：ACT -> LeRobot -> OpenVLA -> OpenVLA-OFT -> RoboTwin -> StarVLA -> LingBot-VLA 2.0 -> RLinf。
+推荐学习：ACT -> LeRobot -> OpenVLA -> OpenVLA-OFT -> RoboTwin -> LingBot-VLA 2.0 -> DAgger -> QoQ/RoboDrop -> SFT -> RFT -> RoboMeter -> Motion Planning。
